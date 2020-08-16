@@ -6,6 +6,9 @@ public class VkPost {
     private String sendToFriend;      //отправить друзьям
     private String savePost;          //сохранить пост
     private String comment;           //оставить комментарий
+    private boolean pinned;           //закреплена ли запись
+    private boolean edit;             //возможно ли редактирование записи
+    private boolean onlyFriends;      //ограничение в просмотре (только для друзей)
 
     // + get/set на все поля
 }
@@ -28,6 +31,7 @@ class Review {
     private int numberOfView;         //количество просмотров
     private int numberOfShares;       //количество репостов
     private int reviewComment;        //просмотр всех комментариев
+    private String geo;               //информация о месторасположении
 
 
 // + get/set на все поля
