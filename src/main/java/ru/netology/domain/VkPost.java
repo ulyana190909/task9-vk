@@ -1,31 +1,33 @@
 package ru.netology.domain;
 
 public class VkPost {
-    public String createPost;        //создать пост
-    public String delete;            //удалить пост
-    public String sendToFriend;      //отправить друзьям
-    public String savePost;          //сохранить пост
-    public String comment;           //оставить комментарий
+    private String createPost;        //создать пост
+    private String delete;            //удалить пост
+    private String sendToFriend;      //отправить друзьям
+    private String savePost;          //сохранить пост
+    private String comment;           //оставить комментарий
 
     // + get/set на все поля
 }
 
 class infoPost {
-    public double data;              //дата создания поста
-    public double time;              //время создания поста
-    public String creatorName;       //имя создателя поста
-    public String linkOfCreator;     //ссылка на создателя поста
-    public String text;              //текст поста
+    private double data;              //дата создания поста
+    private double time;              //время создания поста
+    private String creatorName;       //имя создателя поста
+    private String linkOfCreator;     //ссылка на создателя поста
+    private String text;              //текст поста
+    private String id;                //id записи
+    private String idCreator;         //id страницы создателя поста
 
     // + get/set на все поля
 }
 
 
 class Review {
-    public int like;                 //количество лайков
-    public int numberOfView;         //количество просмотров
-    public int numberOfShares;       //количество репостов
-    public int reviewComment;        //просмотр всех комментариев
+    private int like;                 //количество лайков
+    private int numberOfView;         //количество просмотров
+    private int numberOfShares;       //количество репостов
+    private int reviewComment;        //просмотр всех комментариев
 
 
 // + get/set на все поля
