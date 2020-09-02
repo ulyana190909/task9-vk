@@ -6,7 +6,10 @@ public class InfoPost {
     private String delete;            //удалить пост
     private String sendToFriend;      //отправить друзьям
     private String savePost;          //сохранить пост
-    private boolean pinPost;          //закрепить пост на главной странице
+    private boolean pinPost;          //закрепить пост на главной страниц
+    private String comment;           //оставить комментарий
+    private boolean pinned;           //закреплена ли запись
+    private boolean edit;             //возможно ли редактирование запись
     private double data;              //дата создания поста
     private double time;              //время создания поста
     private String creatorName;       //имя создателя поста
@@ -20,7 +23,6 @@ public class InfoPost {
     private String platform;          //тип платформы с которой опубликована запись
     private String typePostSourse;    //тип источника
     private String urlSourse;         //URL устроиства с которого опубликована запись
-
-
+    
     // + get/set на все поля
 }
