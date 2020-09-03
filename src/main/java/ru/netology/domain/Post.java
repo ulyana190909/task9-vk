@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class InfoPost {
+public class Post {
     private String createPost;        //создать пост
     private String delete;            //удалить пост
     private String sendToFriend;      //отправить друзьям
