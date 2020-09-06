@@ -30,18 +30,5 @@ public class Post {
     private InfoReviewPost infoReviewPost; //информация про просмотры поста
     private InfoVideo infoVideo;      //информация о видеозаписях в посте
 
-    private int ownerId = -1;          //идентификатор пользователя или сообщества, на стене которого находится запись.
-    private int postId;                //идентификатор записи на стене
-
-    public int getCount() {
-        return count;
-    }
-
-    private int domain;                //короткий адрес пользователя или сообщества.
-    private String query;              //поисковой запрос. Для точного результата запрос необходимо передавать в двойных кавычках
-    private int ownersOnly;            //возвращать только записи от имени владельца стены
-    private int count;                 //количество записей, которые необходимо вернуть.
-    private int offset;                //смещение, необходимо для получения определенного подмножества результатов
-
         // + get/set на все поля
     }
